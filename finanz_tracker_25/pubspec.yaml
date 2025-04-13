@@ -1,0 +1,30 @@
+name: finanz_tracker_25
+description: Eine plattformübergreifende Finanzverwaltungs-App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  fl_chart: ^0.63.0
+  google_fonts: ^5.1.0
+  intl: ^0.18.1
+  file_picker: ^5.5.0
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
